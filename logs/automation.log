@@ -1,0 +1,10 @@
+2026-05-11 18:57:02 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 148.0.7778.97 (resolved driver for Chrome 148)
+2026-05-11 18:57:02 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\148.0.7778.97\chromedriver.exe
+2026-05-11 18:57:09 [main] INFO  testcases.loginTestCaseDDT - Browser launched: 
+2026-05-11 18:57:27 [main] INFO  testcases.loginTestCaseDDT - Test case execution finished
+2026-05-11 18:57:37 [main] INFO  testcases.loginTestCaseDDT - Test case execution finished
+2026-05-11 19:36:37 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 148.0.7778.97 (resolved driver for Chrome 148)
+2026-05-11 19:36:37 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\148.0.7778.97\chromedriver.exe
+2026-05-11 19:36:44 [main] INFO  testcases.loginTestCaseDDT - Browser launched: 
+2026-05-11 19:36:56 [main] INFO  testcases.loginTestCaseDDT - Test case execution finished
+2026-05-11 19:37:00 [main] INFO  testcases.loginTestCaseDDT - Test case execution finished

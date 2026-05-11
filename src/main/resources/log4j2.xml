@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+
+    <Properties>
+        <Property name="logDir">logs</Property>
+        <Property name="logFileName">automation</Property>
+    </Properties>
+
+    <Appenders>
+
+        <!-- Console Logs -->
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout
+                    pattern="%d{yyyy-MM-dd HH:mm:ss} [%t] %-5level %c - %msg%n"/>
+        </Console>
+
+        <!-- File Logs -->
+        <RollingFile name="FileAppender"
+                     fileName="${logDir}/${logFileName}.log"
+                     filePattern="${logDir}/${logFileName}-%d{yyyy-MM-dd}-%i.log.gz">
+
+            <PatternLayout>
+                <pattern>%d{yyyy-MM-dd HH:mm:ss} [%t] %-5level %c - %msg%n</pattern>
+            </PatternLayout>
+
+            <Policies>
+                <!-- Roll over daily -->
+                <TimeBasedTriggeringPolicy interval="1"/>
+
+                <!-- Roll over if file size exceeds 5MB -->
+                <SizeBasedTriggeringPolicy size="5 MB"/>
+            </Policies>
+
+            <DefaultRolloverStrategy max="5"/>
+        </RollingFile>
+
+    </Appenders>
+
+    <Loggers>
+
+        <!-- Application Logs -->
+        <Root level="info">
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="FileAppender"/>
+        </Root>
+
+    </Loggers>
+
+</Configuration>
