@@ -15,17 +15,17 @@ public class Listeners extends ExtentReportUtils implements ITestListener {
 
     ExtentReports report =
             ExtentReportUtils.getReportInstance();
-    ExtentTest test;
+    //ExtentTest test;
     @Override
     public void onTestStart(ITestResult result) {
         // not implemented
-        test = report.createTest(result.getName());
+        BaseTest.test = report.createTest(result.getName());
     }
 
 
     public void onTestSuccess(ITestResult result) {
         // not implemented
-        test.pass("Test Passed");
+        BaseTest.test.pass("Test Passed");
     }
 
     /**
@@ -39,6 +39,7 @@ public class Listeners extends ExtentReportUtils implements ITestListener {
         System.out.println("Screenshot captured");
         try {
             BaseTest test = (BaseTest) result.getInstance();
+            result.getThrowable().getMessage();
 
             ExtentReportUtils.getScreentShot(test.driver);
 

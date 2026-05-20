@@ -1,10 +1,12 @@
 package BasePackage;
 
 
+import com.aventstack.extentreports.ExtentTest;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.apache.commons.lang3.RandomStringUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
@@ -15,6 +17,7 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.Properties;
+
 import java.util.Random;
 import org.openqa.selenium.chrome.ChromeOptions;
 
@@ -26,6 +29,7 @@ public class BaseTest {
     public static Properties loc = new Properties();
     public static FileReader fr;
     public static FileReader fr1;
+    public static ExtentTest test;
    //public Logger logger;
 
     public Logger logger = LogManager.getLogger(this.getClass());
@@ -46,8 +50,11 @@ public class BaseTest {
         switch (br.toLowerCase())
         {
             case "chrome" :
+                ChromeOptions options = new ChromeOptions();
+                options.addArguments("--disable-notifications");
+                options.addArguments("--disable-popup-blocking");
                 WebDriverManager.chromedriver().setup();
-                driver = new ChromeDriver();
+                driver = new ChromeDriver(options);
                 break;
 
             case "edge" :
@@ -129,6 +136,37 @@ public class BaseTest {
                     return(generateString+"@"+generatednumber);
 
         }
+
+
+        public void performLogin(String email,String pass)
+        {
+            HomePage hp = new HomePage(driver);
+            hp.clicksignuplogin();
+            logger.info("****Clicked Signup/Login");
+            JavascriptExecutor js = (JavascriptExecutor) driver;
+            js.executeScript("window.scrollBy(0,200)");
+
+            AccountRegistrationPage regpage = new AccountRegistrationPage(driver);
+            regpage.funloginemail(email);
+            regpage.funloginpassword(pass);
+            regpage.funloginbtn();
+
+        }
+
+    public void signupexistingfun(String email,String pass)
+    {
+        HomePage hp = new HomePage(driver);
+        hp.clicksignuplogin();
+        logger.info("****Clicked Signup/Login");
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        js.executeScript("window.scrollBy(0,200)");
+
+        AccountRegistrationPage regpage = new AccountRegistrationPage(driver);
+        regpage.funsignupemail(email);
+        regpage.funsignuppass(pass);
+        regpage.funsignupbtn();
+
+    }
 
 
 }

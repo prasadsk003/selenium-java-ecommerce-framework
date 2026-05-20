@@ -32,6 +32,9 @@ public class AccountRegistrationPage {
     @FindBy(xpath="//button[@data-qa='login-button']")
     WebElement btnloginxpath;
 
+    @FindBy(xpath = "//p[text()='Email Address already exist!']")
+    WebElement txtexistuser;
+
 
     //Account Creation details
     @FindBy(xpath = "")
@@ -67,11 +70,7 @@ public class AccountRegistrationPage {
         signupemail.sendKeys(strEmail);
     }
 
-    public void funsignupbtn()
-    {
-        wait.until(ExpectedConditions.elementToBeClickable(signupbtn));
-        signupbtn.click();
-    }
+
 
     //Login Username and password function
 
@@ -86,6 +85,29 @@ public class AccountRegistrationPage {
 
         passwordxpath.sendKeys(fpasswordlogin);
     }
+
+
+
+    public void funsignupemail(String femaillogin)
+    {
+
+        signupname.sendKeys(femaillogin);
+    }
+
+    public void funsignuppass(String fpasswordlogin)
+    {
+
+        signupemail.sendKeys(fpasswordlogin);
+    }
+
+    public void funsignupbtn()
+    {
+        wait.until(ExpectedConditions.elementToBeClickable(signupbtn));
+        signupbtn.click();
+    }
+
+
+
 
     public void funloginbtn()
     {
@@ -119,6 +141,17 @@ public class AccountRegistrationPage {
             return(e.getMessage());
         }
 
+    }
+
+    public String getConfirmationmsgExistingUser()
+    {
+        try{
+            return (txtexistuser.getText());
+        }
+        catch(Exception e)
+        {
+            return (e.getMessage());
+        }
     }
 
 }

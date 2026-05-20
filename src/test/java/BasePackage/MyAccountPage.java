@@ -12,6 +12,11 @@ public class MyAccountPage {
 
     @FindBy(xpath = "//a[contains(text(),' Logged in as ')]")
     WebElement loggedinconfirmation;
+
+    @FindBy(xpath ="//p[text()='Your email or password is incorrect!']")
+            WebElement txtloginfail;
+
+
     WebDriver driver;
     public MyAccountPage(WebDriver driver)
     {

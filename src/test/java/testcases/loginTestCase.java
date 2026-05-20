@@ -10,6 +10,10 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import utilities.DataProviders;
 
+
+/* Login Test case using Property */
+
+
 public class loginTestCase extends BaseTest {
 
     @Test(dataProvider="LoginData", dataProviderClass= DataProviders.class)
