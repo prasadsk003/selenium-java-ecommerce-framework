@@ -8,6 +8,7 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import utilities.SeleniumUtility;
 
 import java.time.Duration;
 
@@ -18,6 +19,7 @@ public class HomePage extends BaseTest{
         this.driver = driver;
         this.wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         PageFactory.initElements(driver, this);
+        util = new SeleniumUtility(driver);
     }
     @FindBy(xpath="//a[contains(text(),'Signup / Login')]")
     WebElement signuporlogin;
@@ -27,6 +29,20 @@ public class HomePage extends BaseTest{
 
     @FindBy(xpath = "//h2[@class='title text-center' and text()='Features Items']")
     WebElement Homepagetxtconfirm;
+
+    @FindBy(xpath ="//input[@type='email']")
+    WebElement inputSubscription;
+
+    @FindBy(xpath = "//div[text()='You have been successfully subscribed!']")
+    WebElement txtsubscriptionconfirm;
+
+    @FindBy(xpath = "//a[@href='/view_cart']")
+    WebElement btncart;
+
+    @FindBy(xpath ="//button[@type='submit']")
+            WebElement btnsubscription;
+
+    SeleniumUtility util = new SeleniumUtility(driver);
 
         public void clicksignuplogin()
         {
@@ -60,4 +76,21 @@ public class HomePage extends BaseTest{
 
     }
 
+    public void selectSubscriptionInputType(String email)
+    {
+        util.scrollToElement(inputSubscription);
+        util.clickElement(inputSubscription);
+        inputSubscription.sendKeys(email);
+        btnsubscription.click();
+    }
+
+    public String funsubscriptionconfirmation()
+    {
+        return txtsubscriptionconfirm.getText();
+    }
+
+    public void buttoncart()
+    {
+        btncart.click();
+    }
 }

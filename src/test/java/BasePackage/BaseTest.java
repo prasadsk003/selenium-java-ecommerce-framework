@@ -53,6 +53,8 @@ public class BaseTest {
                 ChromeOptions options = new ChromeOptions();
                 options.addArguments("--disable-notifications");
                 options.addArguments("--disable-popup-blocking");
+
+                options.addArguments("--disable-infobars");
                 WebDriverManager.chromedriver().setup();
                 driver = new ChromeDriver(options);
                 break;

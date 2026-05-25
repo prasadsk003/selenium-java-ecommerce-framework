@@ -25,7 +25,9 @@ public class Listeners extends ExtentReportUtils implements ITestListener {
 
     public void onTestSuccess(ITestResult result) {
         // not implemented
-        BaseTest.test.pass("Test Passed");
+        String methodName = result.getMethod().getMethodName();
+        BaseTest.test.pass(methodName+"Got passed");
+
     }
 
     /**

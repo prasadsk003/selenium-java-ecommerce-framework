@@ -1,63 +1,141 @@
-2026-05-18 12:57:43 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  C:\Users\Admin\IdeaProjects\AutomateEcomm\TestRunner\SearchProductTestNg.xml
+2026-05-25 11:25:41 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Admin\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
 
-2026-05-18 12:57:46 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 148.0.7778.167 (resolved driver for Chrome 148)
-2026-05-18 12:57:46 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\148.0.7778.167\chromedriver.exe
-2026-05-18 12:57:52 [main] INFO  testcases.viewAllProductTestCase - Browser launched: 
-2026-05-18 12:59:11 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  C:\Users\Admin\IdeaProjects\AutomateEcomm\TestRunner\SearchProductTestNg.xml
+2026-05-25 11:25:44 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 148.0.7778.178 (resolved driver for Chrome 148)
+2026-05-25 11:25:45 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\148.0.7778.178\chromedriver.exe
+2026-05-25 11:25:51 [main] INFO  testcases.searchProductTestCase - Browser launched: 
+2026-05-25 11:43:41 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Admin\IdeaProjects\AutomateEcomm\TestRunner\subscriptionTestNg.xml
 
-2026-05-18 13:00:20 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  C:\Users\Admin\IdeaProjects\AutomateEcomm\TestRunner\SearchProductTestNg.xml
+2026-05-25 11:43:42 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 148.0.7778.178 (resolved driver for Chrome 148)
+2026-05-25 11:43:42 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\148.0.7778.178\chromedriver.exe
+2026-05-25 11:43:49 [main] INFO  testcases.subscriptionTestCase - Browser launched: 
+2026-05-25 11:46:20 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Admin\IdeaProjects\AutomateEcomm\TestRunner\subscriptionTestNg.xml
 
-2026-05-18 13:00:20 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 148.0.7778.167 (resolved driver for Chrome 148)
-2026-05-18 13:00:20 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\148.0.7778.167\chromedriver.exe
-2026-05-18 13:00:24 [main] INFO  testcases.searchProductTestCase - Browser launched: 
-2026-05-18 13:35:15 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  C:\Users\Admin\IdeaProjects\AutomateEcomm\TestRunner\SearchProductTestNg.xml
+2026-05-25 11:46:21 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 148.0.7778.178 (resolved driver for Chrome 148)
+2026-05-25 11:46:21 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\148.0.7778.178\chromedriver.exe
+2026-05-25 11:46:27 [main] INFO  testcases.subscriptionTestCase - Browser launched: 
+2026-05-25 11:50:07 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Admin\IdeaProjects\AutomateEcomm\TestRunner\subscriptionTestNg.xml
 
-2026-05-18 13:35:16 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 148.0.7778.167 (resolved driver for Chrome 148)
-2026-05-18 13:35:16 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\148.0.7778.167\chromedriver.exe
-2026-05-18 13:35:22 [main] INFO  testcases.searchProductTestCase - Browser launched: 
-2026-05-18 13:39:39 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  C:\Users\Admin\IdeaProjects\AutomateEcomm\TestRunner\SearchProductTestNg.xml
+2026-05-25 11:50:07 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 148.0.7778.178 (resolved driver for Chrome 148)
+2026-05-25 11:50:08 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\148.0.7778.178\chromedriver.exe
+2026-05-25 11:50:13 [main] INFO  testcases.subscriptionTestCase - Browser launched: 
+2026-05-25 19:03:13 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Admin\IdeaProjects\AutomateEcomm\TestRunner\subscriptionTestNg.xml
 
-2026-05-18 13:39:40 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 148.0.7778.167 (resolved driver for Chrome 148)
-2026-05-18 13:39:40 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\148.0.7778.167\chromedriver.exe
-2026-05-18 13:39:47 [main] INFO  testcases.searchProductTestCase - Browser launched: 
-2026-05-18 13:45:59 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  C:\Users\Admin\IdeaProjects\AutomateEcomm\TestRunner\SearchProductTestNg.xml
+2026-05-25 19:03:17 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 148.0.7778.178 (resolved driver for Chrome 148)
+2026-05-25 19:03:17 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\148.0.7778.178\chromedriver.exe
+2026-05-25 19:03:22 [main] INFO  testcases.subscriptionTestCase - Browser launched: 
+2026-05-25 19:07:43 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Admin\IdeaProjects\AutomateEcomm\TestRunner\subscriptionTestNg.xml
 
-2026-05-18 13:46:00 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 148.0.7778.167 (resolved driver for Chrome 148)
-2026-05-18 13:46:00 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\148.0.7778.167\chromedriver.exe
-2026-05-18 13:46:05 [main] INFO  testcases.searchProductTestCase - Browser launched: 
-2026-05-18 13:51:57 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  C:\Users\Admin\IdeaProjects\AutomateEcomm\TestRunner\SearchProductTestNg.xml
+2026-05-25 19:07:44 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 148.0.7778.178 (resolved driver for Chrome 148)
+2026-05-25 19:07:44 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\148.0.7778.178\chromedriver.exe
+2026-05-25 19:07:49 [main] INFO  testcases.subscriptionTestCase - Browser launched: 
+2026-05-25 19:23:11 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Admin\IdeaProjects\AutomateEcomm\TestRunner\Subscriptionfromcart.xml
 
-2026-05-18 13:51:58 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 148.0.7778.167 (resolved driver for Chrome 148)
-2026-05-18 13:51:58 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\148.0.7778.167\chromedriver.exe
-2026-05-18 13:52:03 [main] INFO  testcases.searchProductTestCase - Browser launched: 
-2026-05-18 13:52:24 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  C:\Users\Admin\IdeaProjects\AutomateEcomm\TestRunner\SearchProductTestNg.xml
+2026-05-25 19:25:52 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Admin\IdeaProjects\AutomateEcomm\TestRunner\Subscriptionfromcart.xml
 
-2026-05-18 13:52:24 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 148.0.7778.167 (resolved driver for Chrome 148)
-2026-05-18 13:52:24 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\148.0.7778.167\chromedriver.exe
-2026-05-18 13:52:29 [main] INFO  testcases.searchProductTestCase - Browser launched: 
-2026-05-18 13:52:44 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  C:\Users\Admin\IdeaProjects\AutomateEcomm\TestRunner\SearchProductTestNg.xml
+2026-05-25 19:25:53 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 148.0.7778.178 (resolved driver for Chrome 148)
+2026-05-25 19:25:53 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\148.0.7778.178\chromedriver.exe
+2026-05-25 19:25:59 [main] INFO  testcases.SubscriptionfromViewCart - Browser launched: 
+2026-05-25 19:26:53 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Admin\IdeaProjects\AutomateEcomm\TestRunner\Subscriptionfromcart.xml
 
-2026-05-18 13:52:45 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 148.0.7778.167 (resolved driver for Chrome 148)
-2026-05-18 13:52:45 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\148.0.7778.167\chromedriver.exe
-2026-05-18 13:52:50 [main] INFO  testcases.searchProductTestCase - Browser launched: 
-2026-05-18 13:53:06 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  C:\Users\Admin\IdeaProjects\AutomateEcomm\TestRunner\SearchProductTestNg.xml
+2026-05-25 19:26:54 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 148.0.7778.178 (resolved driver for Chrome 148)
+2026-05-25 19:26:54 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\148.0.7778.178\chromedriver.exe
+2026-05-25 19:27:00 [main] INFO  testcases.SubscriptionfromViewCart - Browser launched: 
+2026-05-25 19:31:01 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Admin\IdeaProjects\AutomateEcomm\TestRunner\Subscriptionfromcart.xml
 
-2026-05-18 13:53:07 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 148.0.7778.167 (resolved driver for Chrome 148)
-2026-05-18 13:53:07 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\148.0.7778.167\chromedriver.exe
-2026-05-18 13:53:11 [main] INFO  testcases.searchProductTestCase - Browser launched: 
-2026-05-18 15:14:51 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  C:\Users\Admin\IdeaProjects\AutomateEcomm\TestRunner\SearchProductTestNg.xml
+2026-05-25 19:31:01 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 148.0.7778.178 (resolved driver for Chrome 148)
+2026-05-25 19:31:01 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\148.0.7778.178\chromedriver.exe
+2026-05-25 19:31:07 [main] INFO  testcases.SubscriptionfromViewCart - Browser launched: 
+2026-05-25 20:08:15 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Admin\IdeaProjects\AutomateEcomm\TestRunner\AddtocartProduct.xml
 
-2026-05-18 15:14:54 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 148.0.7778.167 (resolved driver for Chrome 148)
-2026-05-18 15:14:54 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\148.0.7778.167\chromedriver.exe
-2026-05-18 15:14:59 [main] INFO  testcases.searchProductTestCase - Browser launched: 
+2026-05-25 20:08:18 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 148.0.7778.178 (resolved driver for Chrome 148)
+2026-05-25 20:08:18 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\148.0.7778.178\chromedriver.exe
+2026-05-25 20:08:23 [main] INFO  testcases.addToCartProductTestCase - Browser launched: 
+2026-05-25 20:29:39 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Admin\IdeaProjects\AutomateEcomm\TestRunner\AddtocartProduct.xml
+
+2026-05-25 20:29:40 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 148.0.7778.178 (resolved driver for Chrome 148)
+2026-05-25 20:29:40 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\148.0.7778.178\chromedriver.exe
+2026-05-25 20:29:44 [main] INFO  testcases.addToCartProductTestCase - Browser launched: 
+2026-05-25 20:34:08 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Admin\IdeaProjects\AutomateEcomm\TestRunner\AddtocartProduct.xml
+
+2026-05-25 20:34:08 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 148.0.7778.178 (resolved driver for Chrome 148)
+2026-05-25 20:34:08 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\148.0.7778.178\chromedriver.exe
+2026-05-25 20:34:12 [main] INFO  testcases.AddProductToCartTestCase - Browser launched: 
+2026-05-25 20:36:29 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Admin\IdeaProjects\AutomateEcomm\TestRunner\AddtocartProduct.xml
+
+2026-05-25 20:36:29 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 148.0.7778.178 (resolved driver for Chrome 148)
+2026-05-25 20:36:29 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\148.0.7778.178\chromedriver.exe
+2026-05-25 20:36:34 [main] INFO  testcases.AddProductToCartTestCase - Browser launched: 
+2026-05-25 20:37:21 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Admin\IdeaProjects\AutomateEcomm\TestRunner\AddtocartProduct.xml
+
+2026-05-25 20:37:22 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 148.0.7778.178 (resolved driver for Chrome 148)
+2026-05-25 20:37:22 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\148.0.7778.178\chromedriver.exe
+2026-05-25 20:37:26 [main] INFO  testcases.AddProductToCartTestCase - Browser launched: 
+2026-05-25 20:38:09 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Admin\IdeaProjects\AutomateEcomm\TestRunner\AddtocartProduct.xml
+
+2026-05-25 20:38:10 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 148.0.7778.178 (resolved driver for Chrome 148)
+2026-05-25 20:38:10 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\148.0.7778.178\chromedriver.exe
+2026-05-25 20:38:16 [main] INFO  testcases.AddProductToCartTestCase - Browser launched: 
+2026-05-25 20:39:34 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Admin\IdeaProjects\AutomateEcomm\TestRunner\AddtocartProduct.xml
+
+2026-05-25 20:39:34 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 148.0.7778.178 (resolved driver for Chrome 148)
+2026-05-25 20:39:34 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\148.0.7778.178\chromedriver.exe
+2026-05-25 20:39:39 [main] INFO  testcases.AddProductToCartTestCase - Browser launched: 
+2026-05-25 20:41:00 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Admin\IdeaProjects\AutomateEcomm\TestRunner\AddtocartProduct.xml
+
+2026-05-25 20:41:01 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 148.0.7778.178 (resolved driver for Chrome 148)
+2026-05-25 20:41:01 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\148.0.7778.178\chromedriver.exe
+2026-05-25 20:41:06 [main] INFO  testcases.AddProductToCartTestCase - Browser launched: 
+2026-05-25 20:43:42 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Admin\IdeaProjects\AutomateEcomm\TestRunner\AddtocartProduct.xml
+
+2026-05-25 20:43:42 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 148.0.7778.178 (resolved driver for Chrome 148)
+2026-05-25 20:43:42 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\148.0.7778.178\chromedriver.exe
+2026-05-25 20:43:47 [main] INFO  testcases.AddProductToCartTestCase - Browser launched: 
+2026-05-25 20:46:31 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Admin\IdeaProjects\AutomateEcomm\TestRunner\AddtocartProduct.xml
+
+2026-05-25 20:46:32 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 148.0.7778.178 (resolved driver for Chrome 148)
+2026-05-25 20:46:32 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\148.0.7778.178\chromedriver.exe
+2026-05-25 20:46:38 [main] INFO  testcases.AddProductToCartTestCase - Browser launched: 
+2026-05-25 20:46:58 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Admin\IdeaProjects\AutomateEcomm\TestRunner\AddtocartProduct.xml
+
+2026-05-25 20:46:58 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 148.0.7778.178 (resolved driver for Chrome 148)
+2026-05-25 20:46:58 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\148.0.7778.178\chromedriver.exe
+2026-05-25 20:47:03 [main] INFO  testcases.AddProductToCartTestCase - Browser launched: 
+2026-05-25 20:47:57 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Admin\IdeaProjects\AutomateEcomm\TestRunner\AddtocartProduct.xml
+
+2026-05-25 20:47:57 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 148.0.7778.178 (resolved driver for Chrome 148)
+2026-05-25 20:47:57 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\148.0.7778.178\chromedriver.exe
+2026-05-25 20:48:05 [main] INFO  testcases.AddProductToCartTestCase - Browser launched: 
+2026-05-25 22:05:30 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Admin\IdeaProjects\AutomateEcomm\TestRunner\AddtocartProduct.xml
+
+2026-05-25 22:05:32 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 148.0.7778.178 (resolved driver for Chrome 148)
+2026-05-25 22:05:32 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\148.0.7778.178\chromedriver.exe
+2026-05-25 22:05:37 [main] INFO  testcases.AddProductToCartTestCase - Browser launched: 
+2026-05-25 23:17:21 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Admin\IdeaProjects\AutomateEcomm\TestRunner\AddtocartProduct.xml
+
+2026-05-25 23:17:24 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 148.0.7778.178 (resolved driver for Chrome 148)
+2026-05-25 23:17:25 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\148.0.7778.178\chromedriver.exe
+2026-05-25 23:17:31 [main] INFO  testcases.AddProductToCartTestCase - Browser launched: 
