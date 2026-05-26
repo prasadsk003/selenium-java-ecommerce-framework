@@ -1,5 +1,6 @@
 package BasePackage;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -8,6 +9,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import utilities.SeleniumUtility;
 
+import java.util.ArrayList;
 import java.util.List;
 
 
@@ -60,6 +62,11 @@ public class ProductPage {
     @FindBy(xpath = "//button[@type='button' or id='submit_search']")
     WebElement searchicon;
 
+    //get product details
+    @FindBy(xpath = "//a[@data-product-id='1' or @data-product-id='2']/ancestor::div[contains(@class,'productinfo')]")
+    List<WebElement> getProductDetails;
+
+
 //Add to cart product
 
 
@@ -72,14 +79,17 @@ public class ProductPage {
     @FindBy(xpath = "//button[text()='Continue Shopping']")
     WebElement popContinueShopping;
 
-    @FindBy(xpath = "//u[text()='View Cart']")
+    @FindBy(xpath = "//a[@href='/view_cart']/u")
     WebElement linkViewCart;
 
     @FindBy(xpath = "//a[@data-product-id='2']")
             WebElement product2nd;
 
     @FindBy(xpath ="//div[@class='product-overlay']//a[@data-product-id='2']" )
-            WebElement product2ndhoveraddtocart;
+            WebElement allProducts;
+
+    @FindBy(xpath = "//a[@data-product-id='1' or @data-product-id='2']/ancestor::div[@class='productinfo text-center']")
+            List<WebElement> productdetailsfrom_productPage;
 
     WebDriver driver;
 
@@ -181,12 +191,43 @@ public class ProductPage {
         utility.scrollToElement(product2nd);
         Actions act = new Actions(driver);
         act.moveToElement(product2nd).perform();
-        utility.clickElement(product2ndhoveraddtocart);
+        utility.clickElement(allProducts);
     }
 
     public void viewcartpopup()
     {
-        linkViewCart.click();
+        utility.clickElement(linkViewCart);
+    }
+
+    public void fungetProductDetails()
+    {
+        for(WebElement products: getProductDetails)
+        {
+            String productName= products.findElement(By.tagName("p")).getText();
+            String price = products.findElement(By.tagName("h2")).getText();
+
+            System.out.println(productName);
+            System.out.println(price);
+        }
+    }
+
+    public List<String> getSelectedProductDetails()
+    {
+
+        List<String> productdetailsfrom_productPage = new ArrayList<>();
+
+        for(WebElement productdetails: getProductDetails)
+        {
+            String firstProductName=   productdetails.findElement(By.tagName("p")).getText();
+            String firstProductPrice = productdetails.findElement(By.tagName("h2")).getText();
+            String productId = productdetails.findElement(By.tagName("a")).getAttribute("data-product-id");
+
+            productdetailsfrom_productPage.add(firstProductName);
+            productdetailsfrom_productPage.add(firstProductPrice);
+
+
+        }
+        return productdetailsfrom_productPage;
     }
 
 }
