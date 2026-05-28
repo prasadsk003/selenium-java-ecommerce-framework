@@ -37,9 +37,11 @@ public class AddtoCart {
     @FindBy(xpath ="//td[@class='cart_description']//h4")
             WebElement cartaddedproductName;
 
-    @FindBy(xpath = "//table[@class='table table-condensed']")
+    @FindBy(xpath = "//table[@class='table table-condensed']//tbody/tr")
     List<WebElement> getCartProductDetails;
 
+    @FindBy(xpath = "//table[@class='table table-condensed']//td[@class='cart_price']")
+    List<WebElement> getCartProductPrice;
 
     WebDriver driver;
     public AddtoCart(WebDriver driver)
@@ -86,11 +88,14 @@ public class AddtoCart {
 
             for(WebElement list :getCartProductDetails )
             {
-                String cartProductName = list.findElement(By.tagName("p")).getText();
-                String cartProductPrice = list.findElement(By.tagName("h4")).getText();
+                String cartProductPrice = list.findElement(By.xpath(".//td[@class='cart_price']//p")).getText();
+                String cartProductName = list.findElement(By.xpath(".//td[@class='cart_description']//h4")).getText();
 
                 CartPageProductList.add(cartProductName);
                 CartPageProductList.add(cartProductPrice);
+
+                BaseTest.test.info(CartPageProductList.toString());
+
 
             }
             return  CartPageProductList;

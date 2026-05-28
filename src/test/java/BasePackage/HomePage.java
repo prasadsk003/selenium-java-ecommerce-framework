@@ -1,5 +1,6 @@
 package BasePackage;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -54,6 +55,34 @@ public class HomePage extends BaseTest{
         {
             wait.until(ExpectedConditions.elementToBeClickable(btnproducts));
             btnproducts.click();
+            try{
+                Thread.sleep(3000);
+                WebElement ads = driver.findElement(By.xpath("//iframe[@id='aswift_6']"));
+                driver.switchTo().frame(ads);
+
+                driver.findElement(By.xpath("//*[@id='dismiss-button-element']/div")).click();
+                driver.switchTo().defaultContent();
+            }
+            catch(Exception e)
+            {
+                System.out.println("Pop up not displayed");
+            }
+
+            try{
+                Thread.sleep(3000);
+                //WebElement ads2 = driver.findElement(By.xpath("//iframe[@name='google_esf']"));
+                //driver.switchTo().frame(ads2);
+                WebElement ads3= driver.findElement(By.xpath("//iframe[@id='aswift_3']"));
+                driver.switchTo().frame(ads3);
+                //WebElement ads = driver.findElement(By.xpath("//iframe[@title='Advertisement' and @name='ad_iframe']"));
+                //driver.switchTo().frame(ads);
+                driver.findElement(By.xpath("//*[@id='dismiss-button-element']/div")).click();
+                driver.switchTo().defaultContent();
+            }catch(Exception e)
+            {
+                System.out.println("no pop ads2");
+            }
+
         }
 
     public void homepagefeatureItems() throws InterruptedException

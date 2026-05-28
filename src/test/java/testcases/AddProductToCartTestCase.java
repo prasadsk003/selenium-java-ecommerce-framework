@@ -33,7 +33,7 @@ public class AddProductToCartTestCase extends BaseTest {
         System.out.println(actualProduct);
 
         Assert.assertEquals(actualProduct,expectedProducts,"Cart product details mismatch");
-
+        test.info("Matching both expected and actual");
 
 
 

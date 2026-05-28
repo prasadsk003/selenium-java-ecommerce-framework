@@ -13,6 +13,7 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.*;
 
+import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
@@ -51,6 +52,8 @@ public class BaseTest {
         {
             case "chrome" :
                 ChromeOptions options = new ChromeOptions();
+                options.addExtensions(
+                        new File("C:\\Users\\Admin\\IdeaProjects\\AutomateEcomm\\Ads Blocker\\uBlock.crx"));
                 options.addArguments("--disable-notifications");
                 options.addArguments("--disable-popup-blocking");
 

@@ -1,5 +1,6 @@
 package BasePackage;
 
+import com.fasterxml.jackson.databind.ser.Serializers;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
@@ -174,6 +175,7 @@ public class ProductPage {
         js.executeScript("window.scrollBy(0,600)");
         Actions act = new Actions(driver);
         act.moveToElement(hoverfirstProduct).perform();
+        test.info("Hovered to 1st product");
         utility.clickElement(firstProductWithHoverAddtoCart);
     }
 
@@ -191,12 +193,14 @@ public class ProductPage {
         utility.scrollToElement(product2nd);
         Actions act = new Actions(driver);
         act.moveToElement(product2nd).perform();
+        test.info("Hovered to 2nd product");
         utility.clickElement(allProducts);
     }
 
     public void viewcartpopup()
     {
         utility.clickElement(linkViewCart);
+        test.info("Selected View Cart");
     }
 
     public void fungetProductDetails()
@@ -224,6 +228,8 @@ public class ProductPage {
 
             productdetailsfrom_productPage.add(firstProductName);
             productdetailsfrom_productPage.add(firstProductPrice);
+
+            BaseTest.test.info(productdetailsfrom_productPage.toString());
 
 
         }
